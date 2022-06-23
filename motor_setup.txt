@@ -1,0 +1,10 @@
+Motor Control Setup
+Connect 5V and ground of the IC to 5V and ground of Arduino.
+Connect the motor to pins 2 and 3 of the IC.
+Connect IN1 of the IC to pin 8 of Arduino.
+Connect IN2 of the IC to pin 9 of Arduino.
+Connect EN1 of IC to pin 2 of Arduino.
+Connect SENS A pin of IC to the ground.
+Connect the Arduino using Arduino USB cable and upload the program to the Arduino using Arduino IDE software or Arduino Web Editor.
+Provide power to the Arduino board using power supply, battery or USB cable.
+The motor should now run first in the clockwise (CW) direction for 3 seconds and then counter-clockwise (CCW) for 3 seconds.
